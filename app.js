@@ -8,10 +8,7 @@ const app = express();
 const PORT = process.env.PORT || 3000;
 
 // Connect to MongoDB using Mongoose
-mongoose.connect(
-  'mongodb+srv://harka:1234@cluster0.n9l7yks.mongodb.net/?retryWrites=true&w=majority',
-  { useNewUrlParser: true, useUnifiedTopology: true }
-);
+
 const db = mongoose.connection;
 
 // Handle MongoDB connection errors
