@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "errorhandler": "^1.5.1",
+    "express": "^4.18.2",
+    "mongodb": "^6.3.0",
+    "moongose": "^1.0.0",
+    "morgan": "^1.10.0"
+  }
+}
